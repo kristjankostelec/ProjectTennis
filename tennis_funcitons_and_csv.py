@@ -117,9 +117,28 @@ page_to_file(test,'nadal1')
 with open ('nadal1') as nad:
     nadal = nad.read()
 
+dict={}
 for ujemanje in izraz_podatki2.finditer(nadal):
-    print(ujemanje.groupdict())
+    dict = ujemanje.groupdict()
 
+seznam_podatkov = []
+for podatek in dict:
+    seznam_podatkov.append(podatek)
+seznam_podatkov = sorted(seznam_podatkov)
+
+with open('prvi_podatki', 'w', encoding = 'utf-8') as prvi:
+    prvi.write(dict.get('ime') + ' ' + dict.get('priimek') + ': ')
+    for podatek in seznam_podatkov:
+        if podatek not in {'ime','priimek'}:
+            prvi.write(dict.get(podatek) + '; ')
+'''
+with open('prvi_podatki','w', encoding = 'utf-8') as prvi:
+        dict = (izraz_podatki2.finditer(nadal)).groupdict()
+        prvi.write(dict('ime')+':')
+        for podatek in dict:
+            if podatek != 'ime':
+                prvi.write(dict(podatek)+',')
+'''
 '''
 TODO FUNKCIJE:
     . save page to file
