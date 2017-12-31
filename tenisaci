@@ -64,16 +64,16 @@
     ga('send', 'pageview');
     ga('TTVTracker.send', 'pageview');
 	</script>
-		<script src="/assets/js/vendor/vixlet-bootstrap.js?bust=636444542216508663"></script>
+		<script src="/assets/js/vendor/vixlet-bootstrap.js?bust=636486056025443931"></script>
 
 		<script>
-		var cacheBuster = 636444542210657916
+		var cacheBuster = 636486056021043397
 	</script>
 
-    	<link rel="stylesheet" href="/assets/css/ATPWorldTour/desktop.css?bust=636444542210797937" />
+    	<link rel="stylesheet" href="/assets/css/ATPWorldTour/desktop.css?bust=636486056021253397" />
 
 	<script src="/assets/js/vendor/require.js"></script>
-		<script src="/assets/js/desktop.js?bust=636444542210657916"></script>
+		<script src="/assets/js/desktop.js?bust=636486056021043397"></script>
 
 
 		<!--[if lt IE 10]>
@@ -112,7 +112,7 @@
 	</head>
 <!-- END : /modules/global/head -->
 
-<body class="is-desktop" data-signalr-url="https://push.atpworldtour.com/signalr/signalr" data-google-analytics-id="UA-4616629-30">
+<body class="is-desktop" data-signalr-url="http://push.atpworldtour.com/signalr/signalr" data-google-analytics-id="UA-4616629-30">
 	<!-- START : /modules/global/header -->
 	<div id="header" class="header">
 		
@@ -142,10 +142,11 @@
 						</a>
 					</li>
 			
-				<li class="login-link">
-					<div data-vix="auth-bar" data-vix-mode="text" data-vix-logo-align="right" data-vix-color-mode="dark"></div>
+							<li class="login-link">
+					<a href="http://www.atpworldtour.com/en/media/newsletters" target="_blank" data-ga-label="Register" data-ga-category="Outbound" data-ga-action="Click">Register</a>
+					<span class="icon icon-myatp"></span>
 				</li>
-						
+			
 			<li>
 				<!-- START LANGUAGE SELECTOR-->
 				<div id="languageSelector" class="language-selector">
@@ -208,18 +209,24 @@
 				<nav class="atp-nav">
 					<ul class="atp-nav-list">
 							<li class="atp-nav-item ">
-<a href="/en/scores/current/" data-ga-label="Scores" data-ga-category="Outbound" data-ga-action="Click">Scores</a><ul class="atp-sub-nav"><li class="atp-sub-nav-item ">
+<a href="/en/scores/results-archive/" data-ga-label="Scores" data-ga-category="Outbound" data-ga-action="Click">Scores</a><ul class="atp-sub-nav"><li class="atp-sub-nav-item ">
 	<a href="/en/scores/current/" data-ga-category="Outbound">Scores, Draws &amp; Schedules</a>
 </li>
 <li class="atp-sub-nav-item ">
 	<a href="/en/scores/results-archive">Results Archive</a>
 </li>
 <li class="atp-sub-nav-item ">
-	<a href="#" data-ga-category="Outbound" onclick="javascript:openLSHDWindow(2017,'99','','1','en','http://www.atpworldtour.com');return false;">ProTennisLive App</a>
+	<a href="#" data-ga-category="Outbound" onclick="javascript:openLSHDWindow(2018,'99','','1','en','http://www.atpworldtour.com');return false;">ProTennisLive App</a>
+</li>
+<li class="atp-sub-nav-item ">
+	<a href="/en/scores/atp-infosys-second-screen">ATP Infosys Second Screen</a>
 </li>
 </ul></li>	<li class="atp-nav-item ">
 <a href="/en/stats" data-ga-label="Stats" data-ga-category="Main Navigation" data-ga-action="Click">Stats</a><ul class="atp-sub-nav"><li class="atp-sub-nav-item ">
 	<a href="/en/stats" data-ga-category="Outbound">Stats Home</a>
+</li>
+<li class="atp-sub-nav-item ">
+	<a href="javascript:window.open(&quot;http://www.atpworldtour.com/en/stats/player-tendencies&quot;,&quot;_self&quot;);" data-ga-category="Outbound">Serve &amp; Return Tracker</a>
 </li>
 <li class="atp-sub-nav-item ">
 	<a href="/en/stats/leaderboard">Stats Leaderboards</a>
@@ -236,12 +243,6 @@
 </li>
 <li class="atp-sub-nav-item ">
 	<a href="/en/rankings/singles">Singles</a>
-</li>
-<li class="atp-sub-nav-item ">
-	<a href="/en/rankings/singles-race-to-london">Singles Race</a>
-</li>
-<li class="atp-sub-nav-item ">
-	<a href="/en/rankings/race-to-milan">Race to Milan</a>
 </li>
 <li class="atp-sub-nav-item ">
 	<a href="/en/rankings/doubles">Doubles</a>
@@ -344,15 +345,11 @@
 	<a href="/en/video/watch-live">Watch Live</a>
 </li>
 </ul></li>	<li class="atp-nav-item more-item">
-<a href="/en/photos" data-ga-label="Photos" data-ga-category="Main Navigation" data-ga-action="Click">Photos</a></li>	<li class="atp-nav-item more-item">
-<a href="/en/myatp" data-ga-label="MyATP" data-ga-category="Main Navigation" data-ga-action="Click">MyATP</a></li><li class="atp-nav-item atp-more-link"><a href="#">More</a><ul class="atp-sub-nav"><li class="atp-sub-nav-item ">
+<a href="/en/photos" data-ga-label="Photos" data-ga-category="Main Navigation" data-ga-action="Click">Photos</a></li><li class="atp-nav-item atp-more-link"><a href="#">More</a><ul class="atp-sub-nav"><li class="atp-sub-nav-item ">
 	<a href="/en/video">Video</a>
 </li>
 <li class="atp-sub-nav-item ">
 	<a href="/en/photos">Photos</a>
-</li>
-<li class="atp-sub-nav-item ">
-	<a href="/en/myatp">MyATP</a>
 </li>
 </ul></li>
 					</ul>
@@ -427,10 +424,17 @@
     },
     {
       &quot;Title&quot;: &quot;ProTennisLive App&quot;,
-      &quot;Link&quot;: &quot;javascript:openLSHDWindow(2017,&#39;99&#39;,&#39;&#39;,&#39;1&#39;,&#39;en&#39;,&#39;http://www.atpworldtour.com&#39;)&quot;,
+      &quot;Link&quot;: &quot;javascript:openLSHDWindow(2018,&#39;99&#39;,&#39;&#39;,&#39;1&#39;,&#39;en&#39;,&#39;http://www.atpworldtour.com&#39;)&quot;,
       &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
       &quot;AnalyticsAction&quot;: &quot;Click&quot;,
       &quot;AnalyticsLabel&quot;: &quot;ProTennisLive App&quot;
+    },
+    {
+      &quot;Title&quot;: &quot;ATP Infosys Second Screen&quot;,
+      &quot;Link&quot;: &quot;/en/scores/atp-infosys-second-screen&quot;,
+      &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
+      &quot;AnalyticsAction&quot;: &quot;Click&quot;,
+      &quot;AnalyticsLabel&quot;: &quot;ATP Infosys Second Screen&quot;
     }
   ]
 }">
@@ -452,6 +456,13 @@
       &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
       &quot;AnalyticsAction&quot;: &quot;Click&quot;,
       &quot;AnalyticsLabel&quot;: &quot;Stats Home&quot;
+    },
+    {
+      &quot;Title&quot;: &quot;Serve &amp; Return Tracker&quot;,
+      &quot;Link&quot;: &quot;javascript:window.open(\&quot;http://www.atpworldtour.com/en/stats/player-tendencies\&quot;,\&quot;_self\&quot;);&quot;,
+      &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
+      &quot;AnalyticsAction&quot;: &quot;Click&quot;,
+      &quot;AnalyticsLabel&quot;: &quot;Serve &amp; Return Tracker&quot;
     },
     {
       &quot;Title&quot;: &quot;Stats Leaderboards&quot;,
@@ -501,20 +512,6 @@
       &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
       &quot;AnalyticsAction&quot;: &quot;Click&quot;,
       &quot;AnalyticsLabel&quot;: &quot;Singles&quot;
-    },
-    {
-      &quot;Title&quot;: &quot;Singles Race&quot;,
-      &quot;Link&quot;: &quot;/en/rankings/singles-race-to-london&quot;,
-      &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
-      &quot;AnalyticsAction&quot;: &quot;Click&quot;,
-      &quot;AnalyticsLabel&quot;: &quot;Singles Race&quot;
-    },
-    {
-      &quot;Title&quot;: &quot;Race to Milan&quot;,
-      &quot;Link&quot;: &quot;/en/rankings/race-to-milan&quot;,
-      &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
-      &quot;AnalyticsAction&quot;: &quot;Click&quot;,
-      &quot;AnalyticsLabel&quot;: &quot;Race to Milan&quot;
     },
     {
       &quot;Title&quot;: &quot;Doubles&quot;,
@@ -812,19 +809,6 @@
   &quot;MenuItems&quot;: []
 }">
 <a href="/en/photos" data-ga-label="Photos" data-ga-category="Main Navigation" data-ga-action="Click">Photos</a>	</li>
-	<li data-sub-navigation-json="{
-  &quot;Title&quot;: &quot;MyATP&quot;,
-  &quot;SponsorLink&quot;: &quot;&quot;,
-  &quot;SponsorLogo&quot;: &quot;&quot;,
-  &quot;AdvertLink&quot;: &quot;&quot;,
-  &quot;AdvertImage&quot;: &quot;&quot;,
-  &quot;AdvertSize&quot;: &quot;&quot;,
-  &quot;AnalyticsCategory&quot;: &quot;Main Navigation&quot;,
-  &quot;AnalyticsAction&quot;: &quot;Click&quot;,
-  &quot;AnalyticsLabel&quot;: &quot;MyATP&quot;,
-  &quot;MenuItems&quot;: []
-}">
-<a href="/en/myatp" data-ga-label="MyATP" data-ga-category="Main Navigation" data-ga-action="Click">MyATP</a>	</li>
 
 				</ul>
 			</div>
@@ -955,12 +939,6 @@
                     <li id="Singles" class="current">
                         <a href="/en/rankings/singles" data-ga-label="Singles" data-ga-category=" - Singles">Singles</a>
                     </li>
-                    <li id="Singles Race" class="">
-                        <a href="/en/rankings/singles-race-to-london" data-ga-label="Singles Race" data-ga-category=" - Singles">Singles Race</a>
-                    </li>
-                    <li id="Race to Milan" class="">
-                        <a href="/en/rankings/race-to-milan" data-ga-label="Race to Milan" data-ga-category=" - Singles">Race to Milan</a>
-                    </li>
                     <li id="Doubles" class="">
                         <a href="/en/rankings/doubles" data-ga-label="Doubles" data-ga-category=" - Singles">Doubles</a>
                     </li>
@@ -993,12 +971,6 @@
                                     </li>
                                     <li class="header-sub-navigation-item current">
                                         <a href="/en/rankings/singles" data-ga-label="Singles" data-ga-category=" - Singles">Singles</a>
-                                    </li>
-                                    <li class="header-sub-navigation-item ">
-                                        <a href="/en/rankings/singles-race-to-london" data-ga-label="Singles Race" data-ga-category=" - Singles">Singles Race</a>
-                                    </li>
-                                    <li class="header-sub-navigation-item ">
-                                        <a href="/en/rankings/race-to-milan" data-ga-label="Race to Milan" data-ga-category=" - Singles">Race to Milan</a>
                                     </li>
                                     <li class="header-sub-navigation-item ">
                                         <a href="/en/rankings/doubles" data-ga-label="Doubles" data-ga-category=" - Singles">Doubles</a>
@@ -1048,13 +1020,40 @@
 				<div class="dropdown-holder-wrapper">
 		<div class="dropdown-holder">
 			<div class="dropdown-label">
-				2017.10.23
+				2017.12.25
 			</div>
 			<ul class="dropdown" data-value="rankDate">
 				<li class="dropdown-default-label" style="display: none">
-					2017.10.23
+					2017.12.25
 				</li>
-					<li data-value="2017-10-23" class="current">
+					<li data-value="2017-12-25" class="current">
+						2017.12.25
+					</li>
+					<li data-value="2017-12-18" class="">
+						2017.12.18
+					</li>
+					<li data-value="2017-12-11" class="">
+						2017.12.11
+					</li>
+					<li data-value="2017-12-04" class="">
+						2017.12.04
+					</li>
+					<li data-value="2017-11-27" class="">
+						2017.11.27
+					</li>
+					<li data-value="2017-11-20" class="">
+						2017.11.20
+					</li>
+					<li data-value="2017-11-13" class="">
+						2017.11.13
+					</li>
+					<li data-value="2017-11-06" class="">
+						2017.11.06
+					</li>
+					<li data-value="2017-10-30" class="">
+						2017.10.30
+					</li>
+					<li data-value="2017-10-23" class="">
 						2017.10.23
 					</li>
 					<li data-value="2017-10-16" class="">
@@ -6443,16 +6442,16 @@
 				<div class="dropdown-holder-wrapper">
 		<div class="dropdown-holder">
 			<div class="dropdown-label">
-				Top 100
+				All Rankings
 			</div>
 			<ul class="dropdown" data-value="rankRange">
 				<li class="dropdown-default-label" style="display: none">
 					Top 100
 				</li>
-					<li data-value="1-5000" class="">
+					<li data-value="1-5000" class="current">
 						All Rankings
 					</li>
-					<li data-value="0-100" class="current">
+					<li data-value="0-100" class="">
 						Top 100
 					</li>
 					<li data-value="101-200" class="">
@@ -7185,7 +7184,7 @@
 			<div class="sorting-label">
 				Ranking
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=rank&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=rank&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7194,7 +7193,7 @@
 			<div class="sorting-label">
 				Move
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=move&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=move&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7203,7 +7202,7 @@
 			<div class="sorting-label">
 				Country
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=country&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=country&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7212,7 +7211,7 @@
 			<div class="sorting-label">
 				Player
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=player&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=player&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7221,7 +7220,7 @@
 			<div class="sorting-label">
 				Age
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=age&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=age&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7230,7 +7229,7 @@
 			<div class="sorting-label">
 				Points
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=points&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=points&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7239,7 +7238,7 @@
 			<div class="sorting-label">
 				Tourn Played
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=tournPlayed&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=tournPlayed&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 
@@ -7248,7 +7247,7 @@
 			<div class="sorting-label">
 				Points Dropping
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=pointsDropping&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=pointsDropping&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 	<th class="sorting-cell rank-heading sort-up">
@@ -7256,7 +7255,7 @@
 			<div class="sorting-label">
 				Next Best
 			</div>
-			<a href="/en/rankings/singles?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=0-100&amp;sort=nextBest&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
+			<a href="/en/rankings/singles?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=1-10&amp;sort=nextBest&amp;sortAscending=False" class="sorting-arrow" data-filter-modules></a>
 		</div>
 	</th>
 		</tr>
@@ -7283,9 +7282,9 @@
 				<td class="age-cell">
 31				</td>
 				<td class="points-cell">
-<a href="/en/players/rafael-nadal/n409/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">10,465</a>				</td>
+<a href="/en/players/rafael-nadal/n409/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">10,645</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/rafael-nadal/n409/player-activity?matchType=singles" data-ga-label="16">16</a>				</td>
+<a href="/en/players/rafael-nadal/n409/player-activity?matchType=singles" data-ga-label="18">18</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7314,9 +7313,9 @@
 				<td class="age-cell">
 36				</td>
 				<td class="points-cell">
-<a href="/en/players/roger-federer/f324/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">8,505</a>				</td>
+<a href="/en/players/roger-federer/f324/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">9,605</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/roger-federer/f324/player-activity?matchType=singles" data-ga-label="16">16</a>				</td>
+<a href="/en/players/roger-federer/f324/player-activity?matchType=singles" data-ga-label="17">17</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7336,20 +7335,20 @@
 				<td class="country-cell">
 					<div class="country-inner">
 						<div class="country-item">
-							<img src="/en/~/media/images/flags/gbr.svg" alt="GBR" onerror="this.remove()">
+							<img src="/en/~/media/images/flags/bul.svg" alt="BUL" onerror="this.remove()">
 						</div>
 					</div>
 				</td>
 				<td class="player-cell">
-<a href="/en/players/andy-murray/mc10/overview" data-ga-label="Andy Murray">Andy Murray</a>				</td>
+<a href="/en/players/grigor-dimitrov/d875/overview" data-ga-label="Grigor Dimitrov">Grigor Dimitrov</a>				</td>
 				<td class="age-cell">
-30				</td>
+26				</td>
 				<td class="points-cell">
-<a href="/en/players/andy-murray/mc10/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">5,290</a>				</td>
+<a href="/en/players/grigor-dimitrov/d875/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">5,150</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/andy-murray/mc10/player-activity?matchType=singles" data-ga-label="17">17</a>				</td>
+<a href="/en/players/grigor-dimitrov/d875/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
 					<td class="pts-cell">
-						500
+						0
 					</td>
 					<td class="next-cell">
 						0
@@ -7358,37 +7357,6 @@
 			<tr>
 				<td class="rank-cell">
 					4
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cro.svg" alt="CRO" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/marin-cilic/c977/overview" data-ga-label="Marin Cilic">Marin Cilic</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/marin-cilic/c977/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">4,505</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/marin-cilic/c977/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						500
-					</td>
-					<td class="next-cell">
-						90
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					5
 				</td>
 				<td class="move-cell">
 					<div class="move-none"></div>
@@ -7407,9 +7375,40 @@
 				<td class="age-cell">
 20				</td>
 				<td class="points-cell">
-<a href="/en/players/alexander-zverev/z355/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">4,400</a>				</td>
+<a href="/en/players/alexander-zverev/z355/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">4,610</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/alexander-zverev/z355/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
+<a href="/en/players/alexander-zverev/z355/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
+					<td class="pts-cell">
+						0
+					</td>
+					<td class="next-cell">
+						0
+					</td>
+			</tr>
+			<tr>
+				<td class="rank-cell">
+					5
+				</td>
+				<td class="move-cell">
+					<div class="move-none"></div>
+					<div class="move-text">
+					</div>
+				</td>
+				<td class="country-cell">
+					<div class="country-inner">
+						<div class="country-item">
+							<img src="/en/~/media/images/flags/aut.svg" alt="AUT" onerror="this.remove()">
+						</div>
+					</div>
+				</td>
+				<td class="player-cell">
+<a href="/en/players/dominic-thiem/tb69/overview" data-ga-label="Dominic Thiem">Dominic Thiem</a>				</td>
+				<td class="age-cell">
+24				</td>
+				<td class="points-cell">
+<a href="/en/players/dominic-thiem/tb69/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">4,015</a>				</td>
+				<td class="tourn-cell">
+<a href="/en/players/dominic-thiem/tb69/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7429,18 +7428,18 @@
 				<td class="country-cell">
 					<div class="country-inner">
 						<div class="country-item">
-							<img src="/en/~/media/images/flags/aut.svg" alt="AUT" onerror="this.remove()">
+							<img src="/en/~/media/images/flags/cro.svg" alt="CRO" onerror="this.remove()">
 						</div>
 					</div>
 				</td>
 				<td class="player-cell">
-<a href="/en/players/dominic-thiem/tb69/overview" data-ga-label="Dominic Thiem">Dominic Thiem</a>				</td>
+<a href="/en/players/marin-cilic/c977/overview" data-ga-label="Marin Cilic">Marin Cilic</a>				</td>
 				<td class="age-cell">
-24				</td>
+29				</td>
 				<td class="points-cell">
-<a href="/en/players/dominic-thiem/tb69/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,935</a>				</td>
+<a href="/en/players/marin-cilic/c977/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,805</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/dominic-thiem/tb69/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
+<a href="/en/players/marin-cilic/c977/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7460,18 +7459,18 @@
 				<td class="country-cell">
 					<div class="country-inner">
 						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
+							<img src="/en/~/media/images/flags/bel.svg" alt="BEL" onerror="this.remove()">
 						</div>
 					</div>
 				</td>
 				<td class="player-cell">
-<a href="/en/players/novak-djokovic/d643/overview" data-ga-label="Novak Djokovic">Novak Djokovic</a>				</td>
+<a href="/en/players/david-goffin/gb88/overview" data-ga-label="David Goffin">David Goffin</a>				</td>
 				<td class="age-cell">
-30				</td>
+27				</td>
 				<td class="points-cell">
-<a href="/en/players/novak-djokovic/d643/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,765</a>				</td>
+<a href="/en/players/david-goffin/gb88/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,775</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/novak-djokovic/d643/player-activity?matchType=singles" data-ga-label="17">17</a>				</td>
+<a href="/en/players/david-goffin/gb88/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7491,18 +7490,18 @@
 				<td class="country-cell">
 					<div class="country-inner">
 						<div class="country-item">
-							<img src="/en/~/media/images/flags/bul.svg" alt="BUL" onerror="this.remove()">
+							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
 						</div>
 					</div>
 				</td>
 				<td class="player-cell">
-<a href="/en/players/grigor-dimitrov/d875/overview" data-ga-label="Grigor Dimitrov">Grigor Dimitrov</a>				</td>
+<a href="/en/players/jack-sock/sm25/overview" data-ga-label="Jack Sock">Jack Sock</a>				</td>
 				<td class="age-cell">
-26				</td>
+25				</td>
 				<td class="points-cell">
-<a href="/en/players/grigor-dimitrov/d875/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,650</a>				</td>
+<a href="/en/players/jack-sock/sm25/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,165</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/grigor-dimitrov/d875/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
+<a href="/en/players/jack-sock/sm25/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
 					<td class="pts-cell">
 						0
 					</td>
@@ -7531,11 +7530,11 @@
 				<td class="age-cell">
 32				</td>
 				<td class="points-cell">
-<a href="/en/players/stan-wawrinka/w367/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,450</a>				</td>
+<a href="/en/players/stan-wawrinka/w367/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">3,150</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/stan-wawrinka/w367/player-activity?matchType=singles" data-ga-label="16">16</a>				</td>
+<a href="/en/players/stan-wawrinka/w367/player-activity?matchType=singles" data-ga-label="15">15</a>				</td>
 					<td class="pts-cell">
-						90
+						0
 					</td>
 					<td class="next-cell">
 						0
@@ -7544,37 +7543,6 @@
 			<tr>
 				<td class="rank-cell">
 					10
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/bel.svg" alt="BEL" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/david-goffin/gb88/overview" data-ga-label="David Goffin">David Goffin</a>				</td>
-				<td class="age-cell">
-26				</td>
-				<td class="points-cell">
-<a href="/en/players/david-goffin/gb88/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,840</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/david-goffin/gb88/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					11
 				</td>
 				<td class="move-cell">
 					<div class="move-none"></div>
@@ -7593,2770 +7561,11 @@
 				<td class="age-cell">
 26				</td>
 				<td class="points-cell">
-<a href="/en/players/pablo-carreno%20busta/cd85/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,650</a>				</td>
+<a href="/en/players/pablo-carreno%20busta/cd85/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,615</a>				</td>
 				<td class="tourn-cell">
-<a href="/en/players/pablo-carreno%20busta/cd85/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
+<a href="/en/players/pablo-carreno%20busta/cd85/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
 					<td class="pts-cell">
 						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					12
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/can.svg" alt="CAN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/milos-raonic/r975/overview" data-ga-label="Milos Raonic">Milos Raonic</a>				</td>
-				<td class="age-cell">
-26				</td>
-				<td class="points-cell">
-<a href="/en/players/milos-raonic/r975/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,600</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/milos-raonic/r975/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					13
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/john-isner/i186/overview" data-ga-label="John Isner">John Isner</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/john-isner/i186/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,550</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/john-isner/i186/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						45
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					14
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/sam-querrey/q927/overview" data-ga-label="Sam Querrey">Sam Querrey</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/sam-querrey/q927/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,525</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/sam-querrey/q927/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					15
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jo-wilfried-tsonga/t786/overview" data-ga-label="Jo-Wilfried Tsonga">Jo-Wilfried Tsonga</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/jo-wilfried-tsonga/t786/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,490</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jo-wilfried-tsonga/t786/player-activity?matchType=singles" data-ga-label="20">20</a>				</td>
-					<td class="pts-cell">
-						300
-					</td>
-					<td class="next-cell">
-						45
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					16
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/jpn.svg" alt="JPN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/kei-nishikori/n552/overview" data-ga-label="Kei Nishikori">Kei Nishikori</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/kei-nishikori/n552/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,475</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/kei-nishikori/n552/player-activity?matchType=singles" data-ga-label="20">20</a>				</td>
-					<td class="pts-cell">
-						300
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					17
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rsa.svg" alt="RSA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/kevin-anderson/a678/overview" data-ga-label="Kevin Anderson">Kevin Anderson</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/kevin-anderson/a678/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,470</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/kevin-anderson/a678/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					18
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cze.svg" alt="CZE" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/tomas-berdych/ba47/overview" data-ga-label="Tomas Berdych">Tomas Berdych</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/tomas-berdych/ba47/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,230</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/tomas-berdych/ba47/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					19
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/juan%20martin-del%20potro/d683/overview" data-ga-label="Juan Martin del Potro">Juan Martin del Potro</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/juan%20martin-del%20potro/d683/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,225</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/juan%20martin-del%20potro/d683/player-activity?matchType=singles" data-ga-label="18">18</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					20
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/aus.svg" alt="AUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/nick-kyrgios/ke17/overview" data-ga-label="Nick Kyrgios">Nick Kyrgios</a>				</td>
-				<td class="age-cell">
-22				</td>
-				<td class="points-cell">
-<a href="/en/players/nick-kyrgios/ke17/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,010</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/nick-kyrgios/ke17/player-activity?matchType=singles" data-ga-label="20">20</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					21
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/roberto-bautista%20agut/bd06/overview" data-ga-label="Roberto Bautista Agut">Roberto Bautista Agut</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/roberto-bautista%20agut/bd06/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,935</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/roberto-bautista%20agut/bd06/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					22
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/albert-ramos-vinolas/r772/overview" data-ga-label="Albert Ramos-Vinolas">Albert Ramos-Vinolas</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/albert-ramos-vinolas/r772/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,925</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/albert-ramos-vinolas/r772/player-activity?matchType=singles" data-ga-label="30">30</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						45
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					23
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jack-sock/sm25/overview" data-ga-label="Jack Sock">Jack Sock</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/jack-sock/sm25/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,900</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jack-sock/sm25/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					24
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/lux.svg" alt="LUX" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/gilles-muller/ma30/overview" data-ga-label="Gilles Muller">Gilles Muller</a>				</td>
-				<td class="age-cell">
-34				</td>
-				<td class="points-cell">
-<a href="/en/players/gilles-muller/ma30/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,830</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/gilles-muller/ma30/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						180
-					</td>
-					<td class="next-cell">
-						45
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					25
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/lucas-pouille/pf39/overview" data-ga-label="Lucas Pouille">Lucas Pouille</a>				</td>
-				<td class="age-cell">
-23				</td>
-				<td class="points-cell">
-<a href="/en/players/lucas-pouille/pf39/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,780</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/lucas-pouille/pf39/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					26
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/diego-schwartzman/sm37/overview" data-ga-label="Diego Schwartzman">Diego Schwartzman</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/diego-schwartzman/sm37/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,720</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/diego-schwartzman/sm37/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					27
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ita.svg" alt="ITA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/fabio-fognini/f510/overview" data-ga-label="Fabio Fognini">Fabio Fognini</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/fabio-fognini/f510/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,635</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/fabio-fognini/f510/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					28
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/adrian-mannarino/me82/overview" data-ga-label="Adrian Mannarino">Adrian Mannarino</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/adrian-mannarino/me82/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,580</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/adrian-mannarino/me82/player-activity?matchType=singles" data-ga-label="29">29</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					29
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/david-ferrer/f401/overview" data-ga-label="David Ferrer">David Ferrer</a>				</td>
-				<td class="age-cell">
-35				</td>
-				<td class="points-cell">
-<a href="/en/players/david-ferrer/f401/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,470</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/david-ferrer/f401/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						180
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					30
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/mischa-zverev/z168/overview" data-ga-label="Mischa Zverev">Mischa Zverev</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/mischa-zverev/z168/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,457</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/mischa-zverev/z168/player-activity?matchType=singles" data-ga-label="31">31</a>				</td>
-					<td class="pts-cell">
-						200
-					</td>
-					<td class="next-cell">
-						45
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					31
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-7					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/bih.svg" alt="BIH" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/damir-dzumhur/d923/overview" data-ga-label="Damir Dzumhur">Damir Dzumhur</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/damir-dzumhur/d923/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,411</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/damir-dzumhur/d923/player-activity?matchType=singles" data-ga-label="28">28</a>				</td>
-					<td class="pts-cell">
-						65
-					</td>
-					<td class="next-cell">
-						20
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					32
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/richard-gasquet/g628/overview" data-ga-label="Richard Gasquet">Richard Gasquet</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/richard-gasquet/g628/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,375</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/richard-gasquet/g628/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					33
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/feliciano-lopez/l397/overview" data-ga-label="Feliciano Lopez">Feliciano Lopez</a>				</td>
-				<td class="age-cell">
-36				</td>
-				<td class="points-cell">
-<a href="/en/players/feliciano-lopez/l397/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,295</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/feliciano-lopez/l397/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					34
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/philipp-kohlschreiber/k435/overview" data-ga-label="Philipp Kohlschreiber">Philipp Kohlschreiber</a>				</td>
-				<td class="age-cell">
-34				</td>
-				<td class="points-cell">
-<a href="/en/players/philipp-kohlschreiber/k435/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,295</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/philipp-kohlschreiber/k435/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						45
-					</td>
-					<td class="next-cell">
-						20
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					35
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rus.svg" alt="RUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/andrey-rublev/re44/overview" data-ga-label="Andrey Rublev">Andrey Rublev</a>				</td>
-				<td class="age-cell">
-20				</td>
-				<td class="points-cell">
-<a href="/en/players/andrey-rublev/re44/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,286</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/andrey-rublev/re44/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						8
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					36
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/uru.svg" alt="URU" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/pablo-cuevas/c882/overview" data-ga-label="Pablo Cuevas">Pablo Cuevas</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/pablo-cuevas/c882/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,280</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/pablo-cuevas/c882/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					37
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ukr.svg" alt="UKR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/alexandr-dolgopolov/d801/overview" data-ga-label="Alexandr Dolgopolov">Alexandr Dolgopolov</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/alexandr-dolgopolov/d801/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,231</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/alexandr-dolgopolov/d801/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					38
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/jpn.svg" alt="JPN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/yuichi-sugita/se73/overview" data-ga-label="Yuichi Sugita">Yuichi Sugita</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/yuichi-sugita/se73/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,219</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/yuichi-sugita/se73/player-activity?matchType=singles" data-ga-label="28">28</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					39
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/fernando-verdasco/v306/overview" data-ga-label="Fernando Verdasco">Fernando Verdasco</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/fernando-verdasco/v306/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,160</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/fernando-verdasco/v306/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					40
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/benoit-paire/pd31/overview" data-ga-label="Benoit Paire">Benoit Paire</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/benoit-paire/pd31/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,155</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/benoit-paire/pd31/player-activity?matchType=singles" data-ga-label="33">33</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					41
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ita.svg" alt="ITA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/paolo-lorenzi/l503/overview" data-ga-label="Paolo Lorenzi">Paolo Lorenzi</a>				</td>
-				<td class="age-cell">
-35				</td>
-				<td class="points-cell">
-<a href="/en/players/paolo-lorenzi/l503/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,155</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/paolo-lorenzi/l503/player-activity?matchType=singles" data-ga-label="34">34</a>				</td>
-					<td class="pts-cell">
-						45
-					</td>
-					<td class="next-cell">
-						20
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					42
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rus.svg" alt="RUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/karen-khachanov/ke29/overview" data-ga-label="Karen Khachanov">Karen Khachanov</a>				</td>
-				<td class="age-cell">
-21				</td>
-				<td class="points-cell">
-<a href="/en/players/karen-khachanov/ke29/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,110</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/karen-khachanov/ke29/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						25
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					43
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/steve-johnson/j386/overview" data-ga-label="Steve Johnson">Steve Johnson</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/steve-johnson/j386/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,090</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/steve-johnson/j386/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					44
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ned.svg" alt="NED" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/robin-haase/h756/overview" data-ga-label="Robin Haase">Robin Haase</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/robin-haase/h756/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,075</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/robin-haase/h756/player-activity?matchType=singles" data-ga-label="30">30</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					45
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/gael-monfils/mc65/overview" data-ga-label="Gael Monfils">Gael Monfils</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/gael-monfils/mc65/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,015</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/gael-monfils/mc65/player-activity?matchType=singles" data-ga-label="16">16</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					46
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/ryan-harrison/h940/overview" data-ga-label="Ryan Harrison">Ryan Harrison</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/ryan-harrison/h940/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">1,003</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/ryan-harrison/h940/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					47
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/gbr.svg" alt="GBR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/aljaz-bedene/bh09/overview" data-ga-label="Aljaz Bedene">Aljaz Bedene</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/aljaz-bedene/bh09/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">993</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/aljaz-bedene/bh09/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					48
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/viktor-troicki/t840/overview" data-ga-label="Viktor Troicki">Viktor Troicki</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/viktor-troicki/t840/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">985</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/viktor-troicki/t840/player-activity?matchType=singles" data-ga-label="28">28</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						20
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					49
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/can.svg" alt="CAN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/denis-shapovalov/su55/overview" data-ga-label="Denis Shapovalov">Denis Shapovalov</a>				</td>
-				<td class="age-cell">
-18				</td>
-				<td class="points-cell">
-<a href="/en/players/denis-shapovalov/su55/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">926</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/denis-shapovalov/su55/player-activity?matchType=singles" data-ga-label="21">21</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					50
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jared-donaldson/dc58/overview" data-ga-label="Jared Donaldson">Jared Donaldson</a>				</td>
-				<td class="age-cell">
-21				</td>
-				<td class="points-cell">
-<a href="/en/players/jared-donaldson/dc58/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">908</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jared-donaldson/dc58/player-activity?matchType=singles" data-ga-label="29">29</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					51
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jan-lennard-struff/sl28/overview" data-ga-label="Jan-Lennard Struff">Jan-Lennard Struff</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/jan-lennard-struff/sl28/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">908</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jan-lennard-struff/sl28/player-activity?matchType=singles" data-ga-label="33">33</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					52
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/leonardo-mayer/md56/overview" data-ga-label="Leonardo Mayer">Leonardo Mayer</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/leonardo-mayer/md56/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">897</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/leonardo-mayer/md56/player-activity?matchType=singles" data-ga-label="20">20</a>				</td>
-					<td class="pts-cell">
-						17
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					53
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/geo.svg" alt="GEO" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/nikoloz-basilashvili/bg23/overview" data-ga-label="Nikoloz Basilashvili">Nikoloz Basilashvili</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/nikoloz-basilashvili/bg23/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">887</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/nikoloz-basilashvili/bg23/player-activity?matchType=singles" data-ga-label="33">33</a>				</td>
-					<td class="pts-cell">
-						65
-					</td>
-					<td class="next-cell">
-						10
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					54
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cro.svg" alt="CRO" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/borna-coric/cg80/overview" data-ga-label="Borna Coric">Borna Coric</a>				</td>
-				<td class="age-cell">
-20				</td>
-				<td class="points-cell">
-<a href="/en/players/borna-coric/cg80/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">886</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/borna-coric/cg80/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					55
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cro.svg" alt="CRO" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/ivo-karlovic/k336/overview" data-ga-label="Ivo Karlovic">Ivo Karlovic</a>				</td>
-				<td class="age-cell">
-38				</td>
-				<td class="points-cell">
-<a href="/en/players/ivo-karlovic/k336/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">885</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/ivo-karlovic/k336/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						180
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					56
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/uzb.svg" alt="UZB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/denis-istomin/i165/overview" data-ga-label="Denis Istomin">Denis Istomin</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/denis-istomin/i165/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">885</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/denis-istomin/i165/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						18
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					57
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/kor.svg" alt="KOR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/hyeon-chung/ch27/overview" data-ga-label="Hyeon Chung">Hyeon Chung</a>				</td>
-				<td class="age-cell">
-21				</td>
-				<td class="points-cell">
-<a href="/en/players/hyeon-chung/ch27/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">877</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/hyeon-chung/ch27/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						33
-					</td>
-					<td class="next-cell">
-						8
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					58
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/donald-young/y124/overview" data-ga-label="Donald Young">Donald Young</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/donald-young/y124/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">865</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/donald-young/y124/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						65
-					</td>
-					<td class="next-cell">
-						16
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					59
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-10					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/federico-delbonis/d874/overview" data-ga-label="Federico Delbonis">Federico Delbonis</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/federico-delbonis/d874/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">845</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/federico-delbonis/d874/player-activity?matchType=singles" data-ga-label="19">19</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					60
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/por.svg" alt="POR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/joao-sousa/sh90/overview" data-ga-label="Joao Sousa">Joao Sousa</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/joao-sousa/sh90/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">825</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/joao-sousa/sh90/player-activity?matchType=singles" data-ga-label="30">30</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					61
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cze.svg" alt="CZE" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jiri-vesely/v708/overview" data-ga-label="Jiri Vesely">Jiri Vesely</a>				</td>
-				<td class="age-cell">
-24				</td>
-				<td class="points-cell">
-<a href="/en/players/jiri-vesely/v708/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">815</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jiri-vesely/v708/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					62
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/horacio-zeballos/z184/overview" data-ga-label="Horacio Zeballos">Horacio Zeballos</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/horacio-zeballos/z184/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">808</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/horacio-zeballos/z184/player-activity?matchType=singles" data-ga-label="33">33</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					63
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-5					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/gbr.svg" alt="GBR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/kyle-edmund/e831/overview" data-ga-label="Kyle Edmund">Kyle Edmund</a>				</td>
-				<td class="age-cell">
-22				</td>
-				<td class="points-cell">
-<a href="/en/players/kyle-edmund/e831/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">807</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/kyle-edmund/e831/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					64
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/guido-pella/pc11/overview" data-ga-label="Guido Pella">Guido Pella</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/guido-pella/pc11/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">792</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/guido-pella/pc11/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						45
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					65
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/bel.svg" alt="BEL" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/steve-darcis/d632/overview" data-ga-label="Steve Darcis">Steve Darcis</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/steve-darcis/d632/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">791</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/steve-darcis/d632/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						60
-					</td>
-					<td class="next-cell">
-						10
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					66
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-6					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/tpe.svg" alt="TPE" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/yen-hsun-lu/l575/overview" data-ga-label="Yen-Hsun Lu">Yen-Hsun Lu</a>				</td>
-				<td class="age-cell">
-34				</td>
-				<td class="points-cell">
-<a href="/en/players/yen-hsun-lu/l575/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">778</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/yen-hsun-lu/l575/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						90
-					</td>
-					<td class="next-cell">
-						16
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					67
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rus.svg" alt="RUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/daniil-medvedev/mm58/overview" data-ga-label="Daniil Medvedev">Daniil Medvedev</a>				</td>
-				<td class="age-cell">
-21				</td>
-				<td class="points-cell">
-<a href="/en/players/daniil-medvedev/mm58/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">772</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/daniil-medvedev/mm58/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					68
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/florian-mayer/mb02/overview" data-ga-label="Florian Mayer">Florian Mayer</a>				</td>
-				<td class="age-cell">
-34				</td>
-				<td class="points-cell">
-<a href="/en/players/florian-mayer/mb02/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">768</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/florian-mayer/mb02/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						45
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					69
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/peter-gojowczyk/g967/overview" data-ga-label="Peter Gojowczyk">Peter Gojowczyk</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/peter-gojowczyk/g967/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">758</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/peter-gojowczyk/g967/player-activity?matchType=singles" data-ga-label="20">20</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					70
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/isr.svg" alt="ISR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/dudi-sela/sc56/overview" data-ga-label="Dudi Sela">Dudi Sela</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/dudi-sela/sc56/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">755</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/dudi-sela/sc56/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					71
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/dusan-lajovic/l987/overview" data-ga-label="Dusan Lajovic">Dusan Lajovic</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/dusan-lajovic/l987/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">716</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/dusan-lajovic/l987/player-activity?matchType=singles" data-ga-label="29">29</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					72
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ita.svg" alt="ITA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/thomas-fabbiano/f586/overview" data-ga-label="Thomas Fabbiano">Thomas Fabbiano</a>				</td>
-				<td class="age-cell">
-28				</td>
-				<td class="points-cell">
-<a href="/en/players/thomas-fabbiano/f586/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">699</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/thomas-fabbiano/f586/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
-					<td class="pts-cell">
-						8
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					73
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rus.svg" alt="RUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/evgeny-donskoy/d864/overview" data-ga-label="Evgeny Donskoy">Evgeny Donskoy</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/evgeny-donskoy/d864/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">695</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/evgeny-donskoy/d864/player-activity?matchType=singles" data-ga-label="30">30</a>				</td>
-					<td class="pts-cell">
-						15
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					74
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/gilles-simon/sd32/overview" data-ga-label="Gilles Simon">Gilles Simon</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/gilles-simon/sd32/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">690</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/gilles-simon/sd32/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						45
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					75
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/filip-krajinovic/kb05/overview" data-ga-label="Filip Krajinovic">Filip Krajinovic</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/filip-krajinovic/kb05/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">681</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/filip-krajinovic/kb05/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					76
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/frances-tiafoe/td51/overview" data-ga-label="Frances Tiafoe">Frances Tiafoe</a>				</td>
-				<td class="age-cell">
-19				</td>
-				<td class="points-cell">
-<a href="/en/players/frances-tiafoe/td51/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">663</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/frances-tiafoe/td51/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					77
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/aus.svg" alt="AUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jordan-thompson/tc61/overview" data-ga-label="Jordan Thompson">Jordan Thompson</a>				</td>
-				<td class="age-cell">
-23				</td>
-				<td class="points-cell">
-<a href="/en/players/jordan-thompson/tc61/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">662</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jordan-thompson/tc61/player-activity?matchType=singles" data-ga-label="27">27</a>				</td>
-					<td class="pts-cell">
-						80
-					</td>
-					<td class="next-cell">
-						20
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					78
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rou.svg" alt="ROU" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/marius-copil/ca99/overview" data-ga-label="Marius Copil">Marius Copil</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/marius-copil/ca99/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">661</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/marius-copil/ca99/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						100
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					79
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ger.svg" alt="GER" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/cedrik-marcel-stebe/sk94/overview" data-ga-label="Cedrik-Marcel Stebe">Cedrik-Marcel Stebe</a>				</td>
-				<td class="age-cell">
-27				</td>
-				<td class="points-cell">
-<a href="/en/players/cedrik-marcel-stebe/sk94/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">655</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/cedrik-marcel-stebe/sk94/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					80
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/dom.svg" alt="DOM" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/victor-estrella%20burgos/e224/overview" data-ga-label="Victor Estrella Burgos">Victor Estrella Burgos</a>				</td>
-				<td class="age-cell">
-37				</td>
-				<td class="points-cell">
-<a href="/en/players/victor-estrella%20burgos/e224/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">650</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/victor-estrella%20burgos/e224/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					81
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/guillermo-garcia-lopez/g476/overview" data-ga-label="Guillermo Garcia-Lopez">Guillermo Garcia-Lopez</a>				</td>
-				<td class="age-cell">
-34				</td>
-				<td class="points-cell">
-<a href="/en/players/guillermo-garcia-lopez/g476/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">645</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/guillermo-garcia-lopez/g476/player-activity?matchType=singles" data-ga-label="28">28</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					82
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/kaz.svg" alt="KAZ" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/mikhail-kukushkin/k926/overview" data-ga-label="Mikhail Kukushkin">Mikhail Kukushkin</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/mikhail-kukushkin/k926/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">639</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/mikhail-kukushkin/k926/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					83
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/pierre-hugues-herbert/h996/overview" data-ga-label="Pierre-Hugues Herbert">Pierre-Hugues Herbert</a>				</td>
-				<td class="age-cell">
-26				</td>
-				<td class="points-cell">
-<a href="/en/players/pierre-hugues-herbert/h996/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">630</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/pierre-hugues-herbert/h996/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						8
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					84
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-14					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/bel.svg" alt="BEL" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/ruben-bemelmans/be54/overview" data-ga-label="Ruben Bemelmans">Ruben Bemelmans</a>				</td>
-				<td class="age-cell">
-29				</td>
-				<td class="points-cell">
-<a href="/en/players/ruben-bemelmans/be54/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">628</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/ruben-bemelmans/be54/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						8
-					</td>
-					<td class="next-cell">
-						6
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					85
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ita.svg" alt="ITA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/andreas-seppi/sa93/overview" data-ga-label="Andreas Seppi">Andreas Seppi</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/andreas-seppi/sa93/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">626</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/andreas-seppi/sa93/player-activity?matchType=singles" data-ga-label="24">24</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					86
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/arg.svg" alt="ARG" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/nicolas-kicker/kc29/overview" data-ga-label="Nicolas Kicker">Nicolas Kicker</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/nicolas-kicker/kc29/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">626</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/nicolas-kicker/kc29/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					87
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/jeremy-chardy/ca12/overview" data-ga-label="Jeremy Chardy">Jeremy Chardy</a>				</td>
-				<td class="age-cell">
-30				</td>
-				<td class="points-cell">
-<a href="/en/players/jeremy-chardy/ca12/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">615</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/jeremy-chardy/ca12/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					88
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-7					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/bra.svg" alt="BRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/rogerio-dutra%20silva/sc73/overview" data-ga-label="Rogerio Dutra Silva">Rogerio Dutra Silva</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/rogerio-dutra%20silva/sc73/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">613</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/rogerio-dutra%20silva/sc73/player-activity?matchType=singles" data-ga-label="32">32</a>				</td>
-					<td class="pts-cell">
-						33
-					</td>
-					<td class="next-cell">
-						12
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					89
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/laslo-djere/db63/overview" data-ga-label="Laslo Djere">Laslo Djere</a>				</td>
-				<td class="age-cell">
-22				</td>
-				<td class="points-cell">
-<a href="/en/players/laslo-djere/db63/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">603</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/laslo-djere/db63/player-activity?matchType=singles" data-ga-label="29">29</a>				</td>
-					<td class="pts-cell">
-						8
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					90
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/cyp.svg" alt="CYP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/marcos-baghdatis/b837/overview" data-ga-label="Marcos Baghdatis">Marcos Baghdatis</a>				</td>
-				<td class="age-cell">
-32				</td>
-				<td class="points-cell">
-<a href="/en/players/marcos-baghdatis/b837/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">600</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/marcos-baghdatis/b837/player-activity?matchType=singles" data-ga-label="22">22</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					91
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/tun.svg" alt="TUN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/malek-jaziri/j267/overview" data-ga-label="Malek Jaziri">Malek Jaziri</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/malek-jaziri/j267/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">596</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/malek-jaziri/j267/player-activity?matchType=singles" data-ga-label="31">31</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					92
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/usa.svg" alt="USA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/tennys-sandgren/sl08/overview" data-ga-label="Tennys Sandgren">Tennys Sandgren</a>				</td>
-				<td class="age-cell">
-26				</td>
-				<td class="points-cell">
-<a href="/en/players/tennys-sandgren/sl08/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">587</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/tennys-sandgren/sl08/player-activity?matchType=singles" data-ga-label="32">32</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					93
-				</td>
-				<td class="move-cell">
-					<div class="move-none"></div>
-					<div class="move-text">
-					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/fra.svg" alt="FRA" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/julien-benneteau/b747/overview" data-ga-label="Julien Benneteau">Julien Benneteau</a>				</td>
-				<td class="age-cell">
-35				</td>
-				<td class="points-cell">
-<a href="/en/players/julien-benneteau/b747/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">575</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/julien-benneteau/b747/player-activity?matchType=singles" data-ga-label="19">19</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					94
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/sui.svg" alt="SUI" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/henri-laaksonen/l949/overview" data-ga-label="Henri Laaksonen">Henri Laaksonen</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/henri-laaksonen/l949/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">571</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/henri-laaksonen/l949/player-activity?matchType=singles" data-ga-label="31">31</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					95
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-27					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/gre.svg" alt="GRE" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/stefanos-tsitsipas/te51/overview" data-ga-label="Stefanos Tsitsipas">Stefanos Tsitsipas</a>				</td>
-				<td class="age-cell">
-19				</td>
-				<td class="points-cell">
-<a href="/en/players/stefanos-tsitsipas/te51/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">560</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/stefanos-tsitsipas/te51/player-activity?matchType=singles" data-ga-label="32">32</a>				</td>
-					<td class="pts-cell">
-						10
-					</td>
-					<td class="next-cell">
-						8
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					96
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-1					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/srb.svg" alt="SRB" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/janko-tipsarevic/t742/overview" data-ga-label="Janko Tipsarevic">Janko Tipsarevic</a>				</td>
-				<td class="age-cell">
-33				</td>
-				<td class="points-cell">
-<a href="/en/players/janko-tipsarevic/t742/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">556</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/janko-tipsarevic/t742/player-activity?matchType=singles" data-ga-label="17">17</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					97
-				</td>
-				<td class="move-cell">
-					<div class="move-down"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/rus.svg" alt="RUS" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/andrey-kuznetsov/kb54/overview" data-ga-label="Andrey Kuznetsov">Andrey Kuznetsov</a>				</td>
-				<td class="age-cell">
-26				</td>
-				<td class="points-cell">
-<a href="/en/players/andrey-kuznetsov/kb54/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">546</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/andrey-kuznetsov/kb54/player-activity?matchType=singles" data-ga-label="26">26</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					98
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-4					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/ukr.svg" alt="UKR" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/sergiy-stakhovsky/sc77/overview" data-ga-label="Sergiy Stakhovsky">Sergiy Stakhovsky</a>				</td>
-				<td class="age-cell">
-31				</td>
-				<td class="points-cell">
-<a href="/en/players/sergiy-stakhovsky/sc77/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">544</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/sergiy-stakhovsky/sc77/player-activity?matchType=singles" data-ga-label="30">30</a>				</td>
-					<td class="pts-cell">
-						17
-					</td>
-					<td class="next-cell">
-						10
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					99
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-2					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/roberto-carballes%20baena/cf59/overview" data-ga-label="Roberto Carballes Baena">Roberto Carballes Baena</a>				</td>
-				<td class="age-cell">
-24				</td>
-				<td class="points-cell">
-<a href="/en/players/roberto-carballes%20baena/cf59/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">544</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/roberto-carballes%20baena/cf59/player-activity?matchType=singles" data-ga-label="25">25</a>				</td>
-					<td class="pts-cell">
-						0
-					</td>
-					<td class="next-cell">
-						0
-					</td>
-			</tr>
-			<tr>
-				<td class="rank-cell">
-					100
-				</td>
-				<td class="move-cell">
-					<div class="move-up"></div>
-					<div class="move-text">
-3					</div>
-				</td>
-				<td class="country-cell">
-					<div class="country-inner">
-						<div class="country-item">
-							<img src="/en/~/media/images/flags/hun.svg" alt="HUN" onerror="this.remove()">
-						</div>
-					</div>
-				</td>
-				<td class="player-cell">
-<a href="/en/players/marton-fucsovics/f724/overview" data-ga-label="Marton Fucsovics">Marton Fucsovics</a>				</td>
-				<td class="age-cell">
-25				</td>
-				<td class="points-cell">
-<a href="/en/players/marton-fucsovics/f724/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">537</a>				</td>
-				<td class="tourn-cell">
-<a href="/en/players/marton-fucsovics/f724/player-activity?matchType=singles" data-ga-label="23">23</a>				</td>
-					<td class="pts-cell">
-						18
 					</td>
 					<td class="next-cell">
 						0
@@ -10368,13 +7577,13 @@
 	<div class="button-row">
 
 		<a href="#" class="button-border button-disabled" data-ga-label="Previous Top Ranked" data-filter-modules=" ">Previous Top Ranked 100</a>
-		<a href="/en/rankings/singles/?rankDate=2017-10-23&amp;countryCode=all&amp;rankRange=100-200" class="button-border" data-ga-label="Next Top Ranked" data-filter-modules=" " onclick="$(&#39;html,body&#39;).animate({ scrollTop: 0 });">Next Top Ranked 100</a>
+		<a href="/en/rankings/singles/?rankDate=2017-12-25&amp;countryCode=all&amp;rankRange=101-110" class="button-border" data-ga-label="Next Top Ranked" data-filter-modules=" " onclick="$(&#39;html,body&#39;).animate({ scrollTop: 0 });">Next Top Ranked 100</a>
 	</div>
 </div>
 	</div>
 </div>
 <!-- START : /modules/global/iab-ad-featured -->
-<div class="iab-wrapper featured" id="IABAd-3519138-42227bef-bdc1-4fbc-abfd-e9571225d652">
+<div class="iab-wrapper featured" id="IABAd-3519138-09ebe105-c89f-4982-acbd-b1ae88cc5829">
 
 </div>
 
@@ -10404,7 +7613,7 @@
 	require(["util/AdTechAjax"], function (AdTechAjax) {
 		var adTech = new AdTechAjax({
 			rolexTemplate: $("#rolexContent").html(),
-			$el: $("#IABAd-3519138-42227bef-bdc1-4fbc-abfd-e9571225d652"),
+			$el: $("#IABAd-3519138-09ebe105-c89f-4982-acbd-b1ae88cc5829"),
 			advertId: "3519138",
 			sizeId: "225"
 		});
@@ -10456,11 +7665,6 @@
 						<span class="rail-latest-icon__lines"></span>
 					</span>
 				</li>
-					<li data-container="#railSocialContainer">
-						<span class="rail-social-icon">
-							#Social#
-						</span>
-					</li>
 			</div>
 		</ul>
 		<div id="railScoresContainer" class="rail-container">
@@ -10495,11 +7699,11 @@
 						</ul>
 					</div>
 				</div>
-					<div id="IABAd-3519126-2921a19c-0b95-4a12-abb6-682e54022bb8" class="rail-ad iab-wrapper"></div>
+					<div id="IABAd-3519126-ed428d4c-2c4e-410a-9280-bd006f8c37ca" class="rail-ad iab-wrapper"></div>
 					<script>
 						require(["util/AdTechAjax"], function (AdTechAjax) {
 							var adTech = new AdTechAjax({
-								$el: $("#IABAd-3519126-2921a19c-0b95-4a12-abb6-682e54022bb8"),
+								$el: $("#IABAd-3519126-ed428d4c-2c4e-410a-9280-bd006f8c37ca"),
 								advertId: "3519126",
 								sizeId: "170"
 							});
@@ -10545,11 +7749,11 @@
 				<div class="listing-wrapper">
 					<ul class="listing-items"></ul>
 				</div>
-					<div id="IABAd-3519149-00dc2712-9edf-4f05-a7ce-67c826fcef3d" class="rail-ad iab-wrapper"></div>
+					<div id="IABAd-3519149-d9fe578e-d1ba-42c0-83cc-f198d3364e48" class="rail-ad iab-wrapper"></div>
 					<script>
 						require(["util/AdTechAjax"], function (AdTechAjax) {
 							var adTech = new AdTechAjax({
-								$el : $("#IABAd-3519149-00dc2712-9edf-4f05-a7ce-67c826fcef3d"),
+								$el : $("#IABAd-3519149-d9fe578e-d1ba-42c0-83cc-f198d3364e48"),
 								advertId : "3519149",
 								sizeId : "170"
 							});
@@ -10558,16 +7762,12 @@
 					</script>
 			</div>
 		</div>
-			<div id="railSocialContainer" class="rail-container social-rail-tab">
-			
-				<div data-vix="feed" data-capsule-id="5648ea1ff1279e9a0eace358"></div>
-			</div>
 	</div>
 </div>
 <script>
 	require(["modules/global/rail"], function (Rail) {
 		return new Rail({
-			railDefaultTabContainer: "#railScoresContainer",
+			railDefaultTabContainer: "#railLatestContainer",
 			railScoresUrl: "/en/-/ajax/Scores/GetInitialScores",
 			railLatestUrl: "/en/-/ajax/Articles/GetLatest"
 		});
@@ -10715,9 +7915,6 @@
 			</ul>
 		</div>
 			<ul class="footer-social">
-					<li>
-						<a href="http://www.atpworldtour.com/en/myatp" data-use-ga="true" target="_blank" data-ga-label="Vixlet" data-ga-category="Outbound" class="icon-vixlet-circleless" data-ga-action="Click"></a>
-					</li>
 					<li>
 						<a href="https://www.facebook.com/ATPWorldTour" data-use-ga="true" target="_blank" data-ga-label="Facebook" data-ga-category="Outbound" class="icon-facebook-circleless" data-ga-action="Click"></a>
 					</li>

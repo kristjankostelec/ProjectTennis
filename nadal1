@@ -1184,14 +1184,14 @@ Left-Handed, Two-Handed Backhand		</div>
 	});
 </script>
 
-<div id="IABAd-3519187-0d9996e1-514d-43ac-aed7-e315da63774b" class="iab-wrapper">
+<div id="IABAd-3519187-0d974f9d-7819-4a29-a39b-8a12d9c692b4" class="iab-wrapper">
 
 </div>
 
 <script>
 	require(["util/AdTechAjax"], function (AdTechAjax) {
 		var adTech = new AdTechAjax({
-			$el: $("#IABAd-3519187-0d9996e1-514d-43ac-aed7-e315da63774b"),
+			$el: $("#IABAd-3519187-0d974f9d-7819-4a29-a39b-8a12d9c692b4"),
 			advertId: "3519187",
 			sizeId: "225"
 		});
@@ -1445,6 +1445,20 @@ Left-Handed, Two-Handed Backhand		</div>
 	<li class="listing-item">
 
 
+<a href="/en/news/nadal-to-miss-brisbane-2018" class="listing-item-thumb" data-ga-category=" - Overview" data-ga-label="Nadal Delays Start To 2018 Season"><img src="/-/media/images/news/2017/12/28/13/56/nadal-missing-brisbane-2018.jpg?h=196&amp;la=en&amp;w=348&amp;hash=2CD0E4508515EE285ED8FF48F097E55A57493AD0" alt="Rafa" width="348" height="196" /></a>		<div class="listing-item-info">
+			<h3 class="listing-title">
+				<a href="/en/news/nadal-to-miss-brisbane-2018" data-ga-category=" - Overview" data-ga-label="Nadal Delays Start To 2018 Season">Nadal Delays Start To 2018 Season</a>
+			</h3>
+			<div class="listing-category">
+										<span class="listing-category-title">
+							Brisbane
+						</span>
+			</div>
+		</div>
+	</li>
+	<li class="listing-item">
+
+
 <a href="/en/news/fedex-zone-2017-best-by-surface" class="listing-item-thumb" data-ga-category=" - Overview" data-ga-label="FedEx Performance Zone: Best By Surface 2017"><img src="/-/media/images/news/2017/12/20/19/50/fpz_bestof2017_1920x1080.jpg?h=196&amp;la=en&amp;w=348&amp;hash=6FECE7D98CB9A9A4BBED064F7ED70E11A5EAE246" alt="Nadal, Federer" width="348" height="196" /></a>		<div class="listing-item-info">
 			<h3 class="listing-title">
 				<a href="/en/news/fedex-zone-2017-best-by-surface" data-ga-category=" - Overview" data-ga-label="FedEx Performance Zone: Best By Surface 2017">FedEx Performance Zone: Best By Surface 2017</a>
@@ -1466,20 +1480,6 @@ Left-Handed, Two-Handed Backhand		</div>
 			<div class="listing-category">
 										<span class="listing-category-title">
 							Beyond The Numbers
-						</span>
-			</div>
-		</div>
-	</li>
-	<li class="listing-item">
-
-
-<a href="/en/news/nadal-barcelona-2017-conde-de-godo-trophy" class="listing-item-thumb" data-ga-category=" - Overview" data-ga-label="Nadal Awarded Second Conde De Godo Trophy"><img src="/-/media/images/news/2017-photo-upload/bobs-2017-premio-nadal.jpg?h=196&amp;la=en&amp;w=348&amp;hash=529F4A80E45BF1BBB2F2BD6AB157400015D8158A" alt="Nadal" width="348" height="196" /></a>		<div class="listing-item-info">
-			<h3 class="listing-title">
-				<a href="/en/news/nadal-barcelona-2017-conde-de-godo-trophy" data-ga-category=" - Overview" data-ga-label="Nadal Awarded Second Conde De Godo Trophy">Nadal Awarded Second Conde De Godo Trophy</a>
-			</h3>
-			<div class="listing-category">
-										<span class="listing-category-title">
-							Barcelona
 						</span>
 			</div>
 		</div>
@@ -3773,14 +3773,14 @@ Prize Money				</div>
 </div>
 
 
-<div id="IABAd-3519187-fff2b459-3e84-4258-a9d2-b784887545aa" class="iab-wrapper">
+<div id="IABAd-3519187-71201cc7-8fa7-43f4-8e7e-75550dca9402" class="iab-wrapper">
 
 </div>
 
 <script>
 	require(["util/AdTechAjax"], function (AdTechAjax) {
 		var adTech = new AdTechAjax({
-			$el: $("#IABAd-3519187-fff2b459-3e84-4258-a9d2-b784887545aa"),
+			$el: $("#IABAd-3519187-71201cc7-8fa7-43f4-8e7e-75550dca9402"),
 			advertId: "3519187",
 			sizeId: "225"
 		});
@@ -3868,11 +3868,11 @@ Prize Money				</div>
 						</ul>
 					</div>
 				</div>
-					<div id="IABAd-3519126-82e119e8-0524-41f6-9dac-9b36c7dedaee" class="rail-ad iab-wrapper"></div>
+					<div id="IABAd-3519126-9e88c2ee-dac6-4d4a-94b1-01e9e2dfa982" class="rail-ad iab-wrapper"></div>
 					<script>
 						require(["util/AdTechAjax"], function (AdTechAjax) {
 							var adTech = new AdTechAjax({
-								$el: $("#IABAd-3519126-82e119e8-0524-41f6-9dac-9b36c7dedaee"),
+								$el: $("#IABAd-3519126-9e88c2ee-dac6-4d4a-94b1-01e9e2dfa982"),
 								advertId: "3519126",
 								sizeId: "170"
 							});
@@ -3918,11 +3918,11 @@ Prize Money				</div>
 				<div class="listing-wrapper">
 					<ul class="listing-items"></ul>
 				</div>
-					<div id="IABAd-3519149-db70c5df-6d82-467d-81bb-950b3d6562a9" class="rail-ad iab-wrapper"></div>
+					<div id="IABAd-3519149-6b2b0191-7199-407d-a52e-af60e01b48c8" class="rail-ad iab-wrapper"></div>
 					<script>
 						require(["util/AdTechAjax"], function (AdTechAjax) {
 							var adTech = new AdTechAjax({
-								$el : $("#IABAd-3519149-db70c5df-6d82-467d-81bb-950b3d6562a9"),
+								$el : $("#IABAd-3519149-6b2b0191-7199-407d-a52e-af60e01b48c8"),
 								advertId : "3519149",
 								sizeId : "170"
 							});
