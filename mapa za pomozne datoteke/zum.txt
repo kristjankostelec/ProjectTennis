@@ -1,0 +1,66 @@
+# ime
+    '<div class=('|")first-name('|")>'
+    '(?P<ime>.*?)</div>'
+    '.*?'
+    # priimek
+    '<div class=('|")last-name('|")>'
+    '(?P<priimek>.*?)</div>'
+    '.*?'
+    # singles ranking
+    '<div class="data-number" style="margin-left: 10px">.*?'
+    '(?P<rank>\d+)'
+    '.*?'
+    # drzava
+    '<div class="player-flag-code">'
+    '(?P<drzava>.*?)</div>'
+    '.*?'
+    # starost
+    'Age</div>\n\s*?<div class="table-big-value">\n\s*?'
+    '(?P<starost>\d{2})'
+    '.*?'
+    # rojstni dan
+    '<span class="table-birthday">\n\s*?\('
+    '(?P<rojstni>.*?)\)'
+    '.*?'
+    # turned pro
+    'Turned Pro</div>\n\s*?<div class="table-big-value">.*?'
+    '(?P<pro>\d{4})'
+    '.*?'
+    # weight
+    'class="table-weight-kg-wrapper">\('
+    '(?P<teza_kg>\d+)kg\)'
+    '.*?'
+    # height
+    'class="table-height-cm-wrapper">\('
+    '(?P<visina_cm>\d+)cm\)'
+    '.*?'
+    # 2017 W-L
+    'Move.*?</div>.*?</td>.*?<td colspan="1">.*?'
+    'class="stat-value">.*?'
+    '(?P<razmerje17>\d+-\d+).*?</div>'
+    '.*?'
+    # 2017 titles
+    'W-L.*?</div>.*?</td>.*?<td colspan="1">.*?'
+    'class="stat-value">.*?'
+    '(?P<naslovi17>\d+).*?</div>'
+    '.*?'
+    # 2017 prize money
+    'class="stat-value">.*?\$'
+    '(?P<zasluzki17>(,|\d)*).*?</div>'
+    '.*?'
+    # career high
+    'class="stat-value">.*?'
+    '(?P<vrhunec>\d+)'
+    '.*?'
+    # career W-L
+    'class="stat-value">.*?'
+    '(?P<k_razmerje>\d+-\d+)'
+    '.*?'
+    # carrer titles
+    'W-L.*?</div>.*?</td>.*?<td colspan="1">.*?'
+    'class="stat-value">.*?'
+    '(?P<k_naslovi>\d+)'
+    '.*?'
+    # career prize money (S&D combined)
+    'class="stat-value">.*?\$'
+    '(?P<k_zasluzki>(,|\d)*)'
