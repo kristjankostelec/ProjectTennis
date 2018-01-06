@@ -1,37 +1,0 @@
-iz tukaj bom vzemal podatke:
-http://www.atpworldtour.com/en/rankings/singles?rankDate=2017-12-25&rankRange=1-5000
-
-http://www.atpworldtour.com/en/players/rafael-nadal/n409/overview
-http://www.atpworldtour.com/en/players/juan%20martin-del%20potro/d683/overview
-http://www.atpworldtour.com/en/players/guillermo-garcia-lopez/g476/overview
-http://www.atpworldtour.com/en/players/pablo-carreno%20busta/cd85/overview
-http://www.atpworldtour.com/en/players/roger-federer/f324/overview
-
-<tr>
-				<td class="rank-cell"> 
-					11 
-				</td> 
-				<td class="move-cell"> 
-					<div class="move-none"></div> 
-					<div class="move-text"> 
-					</div> 
-				</td>  				<td class="country-cell">  					<div class="country-inner"> 
-						<div class="country-item"> 
-							<img src="/en/~/media/images/flags/esp.svg" alt="ESP" onerror="this.remove()"> 
-						</div> 
-					</div> 
-				</td> 
-				<td class="player-cell"> 
-<a href="/en/players/pablo-carreno%20busta/cd85/overview" data-ga-label="Pablo Carreno Busta">Pablo Carreno Busta</a>				</td> 
-				<td class="age-cell"> 
-26				</td> 
-				<td class="points-cell"> 
-<a href="/en/players/pablo-carreno%20busta/cd85/rankings-breakdown?team=singles" data-ga-label="rankings-breakdown">2,650</a>				</td> 
-				<td class="tourn-cell"> 
-<a href="/en/players/pablo-carreno%20busta/cd85/player-activity?matchType=singles" data-ga-label="24">24</a>				</td> 
-					<td class="pts-cell"> 
-						0 
-					</td> 
-					<td class="next-cell"> 
-						0 
-					</td>			</tr>
