@@ -1,2 +1,4 @@
 pomozne_datoteke/
 veliko_podatkov/
+__pycache__/
+.ipynb_checkpoints/
