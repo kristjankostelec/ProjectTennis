@@ -3,9 +3,8 @@ import os
 import re
 import string
 import csv
-import os.path
 
-first_page = 'http://www.atpworldtour.com/en/rankings/singles?rankDate=2017-12-25&rankRange=1-5000'
+first_page = 'http://www.atpworldtour.com/en/rankings/singles?rankDate=2017-12-25&rankRange=1-3'
 test = 'http://www.atpworldtour.com/en/players/rafael-nadal/n409/overview'
 
 izraz_za_url = re.compile(
@@ -148,9 +147,8 @@ for igralec in igralci:
 
 #-------------------------------------
 
-#zapis vseh podatkov
-slo = ['razmerje17','naslovi17','zasluzki17','vrhunec','k_razmerje','k_naslovi','k_zasluzki']    
-with open('vsi_podatki', 'w',encoding = 'utf-8') as podatki:
+#zapis vseh podatkov   
+with open('vsi_podatki.csv', 'w',encoding = 'utf-8') as podatki:
     for igralec in  igralci:
         ime=igralec[0]
         with open(ime, 'r', encoding='utf-8') as dat:
@@ -163,12 +161,11 @@ with open('vsi_podatki', 'w',encoding = 'utf-8') as podatki:
             
         for ujemanje in izraz_visina.finditer(datt):
             pod['visina_cm'] = (ujemanje.groupdict())['visina_cm']
-            
+
         for ujemanje in izraz_igre.finditer(datt):
-            for s in slo:
-                pod[s] = (ujemanje.groupdict())[s]
-            break
-        
+            print(ujemanje)
+            for info in seznam_podatkov[-7:]:
+                print(info)
+                pod[info] = (ujemanje.groupdict())[info]
+
         zapisi_podatke(podatki)
-
-
