@@ -1,0 +1,12 @@
+analiza podatkov:
+rank, drzava, age, rojstni dan, starost, zasluzki 17, razmerje 17, career high, zasluzki_k, WL career, teza, visina, turnirji 17, turnirji 17
+- rank v odvisnosti od starosti/teze/visine
+- koliko igralcev je bilo rank 1 in iz katerih drzav prihajajo
+- koliko jih je bilo top 100 in torta iz kje so
+- (vse te stvari so od trenutno aktivnih)
+- komu je bila 2017 nadpovprecna sezona
+- drzave v top 1000 (tista tabela k so vodoravni stolpci)
+	
+	
+#TODO:
+- kako dobim ven iz zapisa samo mesec oziroma leto oziroma kr timestamp za dan, da lahko potem razvrstim in dam v graf
