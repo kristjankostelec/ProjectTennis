@@ -10,3 +10,9 @@ rank, drzava, age, rojstni dan, starost, zasluzki 17, razmerje 17, career high, 
 	
 #TODO:
 - kako dobim ven iz zapisa samo mesec oziroma leto oziroma kr timestamp za dan, da lahko potem razvrstim in dam v graf
+
+Za izpit:
+- drevesa
+- funkcije
+- problemi v dobrih strukturah
+- 
