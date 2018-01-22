@@ -7,18 +7,16 @@ ZE UPORABLJENO:
 meseci (Birthday rojstni dan)
 drzava
 starost
-
+visina 
+teza
+razmerje 17
+WL career
 
 +TODO:
 career high
 zasluzki 17
-razmerje 17
-zasluzki 17
-WL career
-teza
-visina
+zasluzki career
 turnirji 17
-turnirji career
 
 
 
